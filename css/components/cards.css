@@ -1,0 +1,57 @@
+.cards {
+  margin: 20px; 
+}
+
+.card-container{
+    display:inline-block;
+    margin:0 auto;
+    padding:0 12px;
+    perspective:900px;
+    text-align:center
+}
+
+.card{
+    position:relative;
+    width:240px;
+    height:300px;
+    transition:all .6s ease;
+    transform-style:
+    preserve-3d
+}
+
+.front,.back{
+    position:absolute;
+    background:#fff;
+    width:240px;
+    height:300px;
+    border-radius:5px;
+    box-shadow: 0 0 5px rgb(230,230,230);
+    backface-visibility:
+    hidden}
+
+.front{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    }
+
+.front img{
+    height: 300px;
+}
+.back{
+    font-size:12px;
+    align-items:center;
+    padding: 10px;
+    }
+
+.back p{
+    padding: 20px;
+}
+
+.card-container:hover .card{
+    transform:rotateY(180deg)
+    }
+
+.back{
+    transform:rotateY(180deg)
+    }

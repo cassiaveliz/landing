@@ -1,0 +1,30 @@
+footer {
+  background-color: #a7a7a7;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 5px 30px 15px 30px;
+
+}
+
+.about {
+  display: flex;
+}
+
+.about-text{
+  padding: 0px 30px 0px 30px;
+}
+
+.copyright{
+  font-size: 10px; 
+}
+
+.links i{
+  color: white;
+  font-size: 15px;
+  margin: 10px 5px 10px 5px;
+}
+
+.links i:hover{
+  transform: scale(1.5);
+}

@@ -1,0 +1,34 @@
+#banner{
+  background-color: #D42C79;
+  height: 250px;
+  text-align: center;
+  color: white;
+  padding: 10px 10px 20px 10px;
+  margin: 0px;
+}
+
+#banner img{
+  height: 150px;
+  border-radius: 50%;
+}
+
+#banner h2, p{
+    margin: 0px;
+}
+
+.btn-primary:link, .btn-primary:visited{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-primary:hover{
+  opacity: 1;
+}
